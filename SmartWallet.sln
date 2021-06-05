@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartWallet.Web", "SmartWallet.Web\SmartWallet.Web.csproj", "{5FAD2540-6FD5-49B8-A0A5-4720857BB093}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartWallet.Application", "SmartWallet.Application", "{10BB70E2-2DB5-4761-BE45-033C41C4DF7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartWallet.Domain", "SmartWallet.Domain", "{A4FA991C-78F1-461A-9354-B5BC400E55C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartWallet.Infrastructure.Data", "SmartWallet.Infrastructure.Data", "{4E50A719-F095-4C91-A088-33E73F3B4CC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartWallet.Infrastructure.IoC", "SmartWallet.Infrastructure.IoC", "{57600259-E8E1-4918-9F6F-0A81D539FC0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartWallet.UI.Blazor", "SmartWallet.UI.Blazor", "{E950CCE4-AD60-4B6F-AE40-E4EC26317CD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwartWallet.Infrastructure.Data", "SwartWallet.Infrastructure.Data\SwartWallet.Infrastructure.Data.csproj", "{7C882870-CFC2-4953-979A-318FB29EA094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWaller.Infrastructure.IoC", "SmartWaller.Infrastructure.IoC\SmartWaller.Infrastructure.IoC.csproj", "{E8662C01-DE6D-478A-8C6F-11D7E105CF91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FAD2540-6FD5-49B8-A0A5-4720857BB093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAD2540-6FD5-49B8-A0A5-4720857BB093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAD2540-6FD5-49B8-A0A5-4720857BB093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAD2540-6FD5-49B8-A0A5-4720857BB093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C882870-CFC2-4953-979A-318FB29EA094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C882870-CFC2-4953-979A-318FB29EA094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C882870-CFC2-4953-979A-318FB29EA094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C882870-CFC2-4953-979A-318FB29EA094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8662C01-DE6D-478A-8C6F-11D7E105CF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8662C01-DE6D-478A-8C6F-11D7E105CF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8662C01-DE6D-478A-8C6F-11D7E105CF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8662C01-DE6D-478A-8C6F-11D7E105CF91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FAD2540-6FD5-49B8-A0A5-4720857BB093} = {E950CCE4-AD60-4B6F-AE40-E4EC26317CD9}
+		{7C882870-CFC2-4953-979A-318FB29EA094} = {4E50A719-F095-4C91-A088-33E73F3B4CC2}
+		{E8662C01-DE6D-478A-8C6F-11D7E105CF91} = {57600259-E8E1-4918-9F6F-0A81D539FC0F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10455EEF-20B2-4F7D-ACB0-485A407D0BF6}
+	EndGlobalSection
+EndGlobal
