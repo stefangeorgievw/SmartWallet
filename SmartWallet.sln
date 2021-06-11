@@ -17,7 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartWallet.UI.Blazor", "Sm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwartWallet.Infrastructure.Data", "SwartWallet.Infrastructure.Data\SwartWallet.Infrastructure.Data.csproj", "{7C882870-CFC2-4953-979A-318FB29EA094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWaller.Infrastructure.IoC", "SmartWaller.Infrastructure.IoC\SmartWaller.Infrastructure.IoC.csproj", "{E8662C01-DE6D-478A-8C6F-11D7E105CF91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartWaller.Infrastructure.IoC", "SmartWaller.Infrastructure.IoC\SmartWaller.Infrastructure.IoC.csproj", "{E8662C01-DE6D-478A-8C6F-11D7E105CF91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWallet.Domain", "SmartWallet.Domain\SmartWallet.Domain.csproj", "{D7E41E26-56C1-4935-8F82-DBF0917D392B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWallet.Application", "SmartWallet.Application\SmartWallet.Application.csproj", "{3478F68C-444B-45C8-A873-AF1F0CFE361C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,14 @@ Global
 		{E8662C01-DE6D-478A-8C6F-11D7E105CF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8662C01-DE6D-478A-8C6F-11D7E105CF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8662C01-DE6D-478A-8C6F-11D7E105CF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E41E26-56C1-4935-8F82-DBF0917D392B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E41E26-56C1-4935-8F82-DBF0917D392B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E41E26-56C1-4935-8F82-DBF0917D392B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E41E26-56C1-4935-8F82-DBF0917D392B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3478F68C-444B-45C8-A873-AF1F0CFE361C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3478F68C-444B-45C8-A873-AF1F0CFE361C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3478F68C-444B-45C8-A873-AF1F0CFE361C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3478F68C-444B-45C8-A873-AF1F0CFE361C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +57,8 @@ Global
 		{5FAD2540-6FD5-49B8-A0A5-4720857BB093} = {E950CCE4-AD60-4B6F-AE40-E4EC26317CD9}
 		{7C882870-CFC2-4953-979A-318FB29EA094} = {4E50A719-F095-4C91-A088-33E73F3B4CC2}
 		{E8662C01-DE6D-478A-8C6F-11D7E105CF91} = {57600259-E8E1-4918-9F6F-0A81D539FC0F}
+		{D7E41E26-56C1-4935-8F82-DBF0917D392B} = {A4FA991C-78F1-461A-9354-B5BC400E55C1}
+		{3478F68C-444B-45C8-A873-AF1F0CFE361C} = {10BB70E2-2DB5-4761-BE45-033C41C4DF7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10455EEF-20B2-4F7D-ACB0-485A407D0BF6}
