@@ -18,4 +18,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SmartWallet.Domain\SmartWallet.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

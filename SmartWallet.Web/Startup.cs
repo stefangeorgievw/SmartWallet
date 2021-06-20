@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using SmartWaller.Infrastructure.IoC;
 using SmartWallet.Web.Areas.Identity;
 using SwartWallet.Infrastructure.Data.Context;
+using SwartWallet.Infrastructure.Data.Models;
 
 namespace SmartWallet.Web
 {
@@ -31,12 +32,12 @@ namespace SmartWallet.Web
             services.AddDbContext<SmartWalletDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("SmartWalletConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
+            services.AddDefaultIdentity<ApplicationUser>()
                 .AddEntityFrameworkStores<SmartWalletDbContext>();
 
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
+            services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<ApplicationUser>>();
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             RegisterServices(services);
