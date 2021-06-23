@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SwartWallet.Infrastructure.Data.Context;
 
 namespace SwartWallet.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(SmartWalletDbContext))]
-    partial class SmartWalletDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210623152139_NullableAccount")]
+    partial class NullableAccount
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
