@@ -19,9 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwartWallet.Infrastructure.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartWaller.Infrastructure.IoC", "SmartWaller.Infrastructure.IoC\SmartWaller.Infrastructure.IoC.csproj", "{E8662C01-DE6D-478A-8C6F-11D7E105CF91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWallet.Domain", "SmartWallet.Domain\SmartWallet.Domain.csproj", "{D7E41E26-56C1-4935-8F82-DBF0917D392B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartWallet.Domain", "SmartWallet.Domain\SmartWallet.Domain.csproj", "{D7E41E26-56C1-4935-8F82-DBF0917D392B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWallet.Application", "SmartWallet.Application\SmartWallet.Application.csproj", "{3478F68C-444B-45C8-A873-AF1F0CFE361C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartWallet.Application", "SmartWallet.Application\SmartWallet.Application.csproj", "{3478F68C-444B-45C8-A873-AF1F0CFE361C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
